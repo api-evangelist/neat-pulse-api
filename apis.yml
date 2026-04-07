@@ -1,9 +1,9 @@
 aid: neat-pulse-api
 name: Neat Pulse API
 description: >-
-  The Pulse API enables direct management of your Pulse devices and
-  organisation. Update device settings, create new rooms and locations, access
-  device sensor data and more. 
+  The Pulse API enables direct management of your Pulse devices and organisation.
+  Update device settings, create new rooms and locations, access device sensor data
+  and more.
 type: Index
 position: Consumer
 access: 3rd-Party
@@ -19,9 +19,9 @@ apis:
   - aid: neat-pulse-api:neat-pulse-api
     name: Neat Pulse API
     description: >-
-      The Pulse API enables direct management of your Pulse devices and
-      organisation. Update device settings, create new rooms and locations,
-      access device sensor data and more. 
+      The Pulse API enables direct management of your Pulse devices and organisation.
+      Update device settings, create new rooms and locations, access device sensor
+      data and more.
     humanURL: ' https://pulse.neat.no/apidocs/#api'
     tags:
       - API
