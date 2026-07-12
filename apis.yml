@@ -18,10 +18,14 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/neat-pulse-api/refs/heads/main/apis.yml
 specificationVersion: '0.19'
 common:
+  - type: DomainSecurity
+    url: security/neat-pulse-api-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Neat-Community-API
   - type: LinkedIn
     url: https://www.linkedin.com/company/neatmeetings
+  - url: https://neat.no/news/
+    type: Blog
 apis:
   - aid: neat-pulse-api:neat-pulse-api
     name: Neat Pulse API
