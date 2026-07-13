@@ -1,0 +1,14 @@
+{
+  "repo": "neat-pulse-api",
+  "feeds": [
+    {
+      "source": "https://neat.no/news/",
+      "feed_url": "https://neat.no/news/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 13
+}
