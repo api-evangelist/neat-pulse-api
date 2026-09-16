@@ -1,9 +1,7 @@
 aid: neat-pulse-api
 name: Neat Pulse API
-description: >-
-  The Pulse API enables direct management of your Pulse devices and organisation.
-  Update device settings, create new rooms and locations, access device sensor data
-  and more.
+description: The Pulse API enables direct management of your Pulse devices and organisation. Update device
+  settings, create new rooms and locations, access device sensor data and more.
 type: Index
 deliveryModel:
   model: unknown
@@ -32,37 +30,36 @@ position: Consuming
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neat-pulse-api.png
 tags:
-  - Video Conferencing
-  - Devices
-  - Hardware
+- Video Conferencing
+- Devices
+- Hardware
 created: '2025-02-24'
-modified: '2026-04-28'
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/neat-pulse-api/refs/heads/main/apis.yml
+modified: '2026-09-16'
+url: https://raw.githubusercontent.com/api-evangelist/neat-pulse-api/refs/heads/main/apis.yml
 specificationVersion: '0.23'
 common:
-  - type: DomainSecurity
-    url: security/neat-pulse-api-domain-security.yml
-  - type: GitHubOrganization
-    url: https://github.com/Neat-Community-API
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/neatmeetings
-  - url: https://neat.no/news/
-    type: Blog
+- type: Website
+  url: https://neat.no
+- type: DomainSecurity
+  url: security/neat-pulse-api-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/Neat-Community-API
+- type: LinkedIn
+  url: https://www.linkedin.com/company/neatmeetings
+- url: https://neat.no/news/
+  type: Blog
 apis:
-  - aid: neat-pulse-api:neat-pulse-api
-    name: Neat Pulse API
-    description: >-
-      The Pulse API enables direct management of your Pulse devices and organisation.
-      Update device settings, create new rooms and locations, access device sensor
-      data and more.
-    humanURL: https://pulse.neat.no/apidocs/
-    tags:
-      - Devices
-      - Video Conferencing
-    properties:
-      - type: Documentation
-        url: https://pulse.neat.no/apidocs/
+- aid: neat-pulse-api:neat-pulse-api
+  name: Neat Pulse API
+  description: The Pulse API enables direct management of your Pulse devices and organisation. Update
+    device settings, create new rooms and locations, access device sensor data and more.
+  humanURL: https://pulse.neat.no/apidocs/
+  tags:
+  - Devices
+  - Video Conferencing
+  properties:
+  - type: Documentation
+    url: https://pulse.neat.no/apidocs/
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
